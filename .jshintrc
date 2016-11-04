@@ -1,12 +1,20 @@
 {
   "strict": "global",
+  "esnext": true,
   "globals": {
+    // window
+    "window": false,
+
     // Angular
     "angular": false,
 
     // Angular mocks
     "module": false,
     "inject": false,
+
+    // Firebase
+    "firebase": false,
+    "Firebase": false,
 
     // Jasmine
     "jasmine": false,

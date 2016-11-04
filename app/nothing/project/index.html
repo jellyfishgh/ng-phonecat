@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN" ng-app="project">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Wire up a Backend</title>
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" media="screen" title="no title">
+    <script src="/bower_components/angular/angular.min.js"></script>
+    <script src="/bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="/bower_components/angular-route/angular-route.min.js"></script>
+    
+    <!--<script src="https://cdn.firebase.com/js/client/2.0.4/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/0.9.0/angularfire.min.js"></script>-->
+    <script src="firebase-2.0.4.js"></script>
+    <script src="angularfire-0.9.0.min.js"></script>
+    <!--<script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>-->
+    <!--<script src="https://cdn.firebase.com/libs/angularfire/2.1.0/angularfire.min.js"></script>-->
+    <!--<script src="firebase-3.5.3.js"></script>
+    <script src="angularfire-2.1.0.min.js"></script>-->
+
+    <script src="project.js"></script>
+    <script src="project-list.js"></script>
+</head>
+
+<body>
+    <h2>JavaScript Projects</h2>
+    <div ng-view></div>
+    <!--<script>
+        var config = {
+            apiKey: "AIzaSyDmAh_fZVrQIt4KjMKyiggbTf-xjEXj2kk",
+            authDomain: "myfire-de3f4.firebaseapp.com",
+            databaseURL: "https://myfire-de3f4.firebaseio.com",
+            storageBucket: "myfire-de3f4.appspot.com",
+            messagingSenderId: "384449193393"
+        };
+        firebase.initializeApp(config);
+    </script>-->
+</body>
+
+</html>
